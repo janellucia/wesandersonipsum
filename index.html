@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wes Anderson Ipsum</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+<body>
+	
+
+
+	<section class="main">
+		<div class="wrapper clearfix">
+			<div class="containerMain">
+				<h2>Wes Anderson Movie quote text generator</h2>
+				<h3>How much text do you want?</h3>
+				<form action="">
+					<fieldset class="length">
+						<ul>
+							<li class="radioButton">
+								<input type="radio" name="length" value="2" id="small">	
+								<label for="small">A little bit</label>
+								<div class="check">
+							</li>
+							<li class="radioButton">
+								<input type="radio" name="length" value="5" id="medium">
+								<label for="medium">Not too much</label>
+								<div class="check">
+							</li>
+							<li class="radioButton">
+								<input type="radio" name="length" value="15" id="large">
+								<label for="large">A whole bunch</label>
+								<div class="check">
+							</li>
+
+						</ul>
+					</fieldset>
+					<div class="submit-container">
+						<input type="submit" value="Wes Yourself">
+					</div>
+				</form>
+				<div class="text-container">
+					<section class="result" id="result"></section>
+				</div>
+				<div class="copy-container">
+    				<button class="btn" data-clipboard-target="#result">Copy text</button>
+    			</div>
+			</div>
+		</div>
+		<footer>
+				<div class="twitter">
+					<a class="twitter-share-button"
+					href="https://twitter.com/intent/tweet?text=Get%20Your%20Wes%20Anderson%20Ipsum%20Text%20via%20wesandersonipsum.janellucia.com/%20@janellucia" data-size="large" target="new">
+					Tweet</a>
+				</div>
+			<div class="credits">
+				<p>App Created by <a href="http://janellucia.com" target="new">Janel Lucia</a></p>
+			</div>
+		</footer>
+	</section>
+
+	<script src="dist/clipboard.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="javascript/bluth.js"></script>
+
+
+</body>
+</html>

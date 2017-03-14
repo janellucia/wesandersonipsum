@@ -1,0 +1,50 @@
+@import 'setup';
+@import 'variables';
+@import 'responsiveFont';
+
+
+@import 'main';
+
+@font-face {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    src: url(../fonts/FuturaTEEMed-Regular.ttf);
+}
+
+body{
+	letter-spacing:1px;
+}
+
+.wrapper{
+	width: 70%;
+	max-width:1000px;
+	margin: 0 auto;
+
+}
+
+h1, {
+	font-weight:400;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+
+}
+
+label, form, p, h2, h3 {
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+
+
+// All Media Queries
+
+// Landscape phones and tablet
+@media (max-width: 767px) {
+	// turn off wrapper margin 
+	.wrapper{
+		width: 80%;
+	}
+    
+}
+ 
+// Landscape phones and down
+@media (max-width: 480px) {
+ 
+}
